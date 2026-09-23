@@ -1,0 +1,110 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "N1"
+        },
+        {
+            "id": "N2"
+        },
+        {
+            "id": "N3"
+        },
+        {
+            "id": "Z1"
+        },
+        {
+            "id": "Z2"
+        },
+        {
+            "id": "Z3"
+        },
+        {
+            "id": "W1"
+        },
+        {
+            "id": "W2"
+        },
+        {
+            "id": "O1"
+        },
+        {
+            "id": "O2"
+        }
+    ],
+    "edges": [
+        {
+            "type": "road",
+            "source": "N1",
+            "target": "N2"
+        },
+        {
+            "type": "road",
+            "source": "N1",
+            "target": "N3"
+        },
+        {
+            "type": "bridge",
+            "name": "Westerbrug",
+            "source": "N1",
+            "target": "W1"
+        },
+        {
+            "type": "road",
+            "source": "N2",
+            "target": "N3"
+        },
+        {
+            "type": "bridge",
+            "name": "Hoge Brug",
+            "source": "N2",
+            "target": "Z2"
+        },
+        {
+            "type": "bridge",
+            "name": "Lage Brug",
+            "source": "N3",
+            "target": "Z3"
+        },
+        {
+            "type": "bridge",
+            "name": "Marktbrug",
+            "source": "N3",
+            "target": "O1"
+        },
+        {
+            "type": "road",
+            "source": "Z1",
+            "target": "Z2"
+        },
+        {
+            "type": "bridge",
+            "name": "Zuiderbrug",
+            "source": "Z1",
+            "target": "W2"
+        },
+        {
+            "type": "road",
+            "source": "Z2",
+            "target": "Z3"
+        },
+        {
+            "type": "bridge",
+            "name": "Oosterbrug",
+            "source": "Z3",
+            "target": "O2"
+        },
+        {
+            "type": "road",
+            "source": "W1",
+            "target": "W2"
+        },
+        {
+            "type": "road",
+            "source": "O1",
+            "target": "O2"
+        }
+    ]
+}
