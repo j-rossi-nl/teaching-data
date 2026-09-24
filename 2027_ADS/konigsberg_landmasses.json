@@ -1,0 +1,70 @@
+{
+    "directed": false,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Altstadt"
+        },
+        {
+            "id": "Kneiphof"
+        },
+        {
+            "id": "Vorstadt"
+        },
+        {
+            "id": "Lomse"
+        }
+    ],
+    "edges": [
+        {
+            "weight": 1,
+            "name": "Krämerbrücke",
+            "source": "Altstadt",
+            "target": "Kneiphof",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "name": "Schmiedebrücke",
+            "source": "Altstadt",
+            "target": "Kneiphof",
+            "key": 1
+        },
+        {
+            "weight": 1,
+            "name": "Holzbrücke",
+            "source": "Altstadt",
+            "target": "Lomse",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "name": "Grüne Brücke",
+            "source": "Kneiphof",
+            "target": "Vorstadt",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "name": "Köttelbrücke",
+            "source": "Kneiphof",
+            "target": "Vorstadt",
+            "key": 1
+        },
+        {
+            "weight": 1,
+            "name": "Honigbrücke",
+            "source": "Kneiphof",
+            "target": "Lomse",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "name": "Hohe Brücke",
+            "source": "Vorstadt",
+            "target": "Lomse",
+            "key": 0
+        }
+    ]
+}
